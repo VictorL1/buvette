@@ -1,0 +1,107 @@
+ html, body {
+	height: 100%;
+	margin: 0; 
+	
+}
+body {
+	text-align: center;
+	padding-top: 0px;
+	margin: 0px;
+	display : table;
+	width: 100%;
+	background-color:#D3D3D3;
+}
+header{
+	position: absolute;
+	top: 0;
+	padding-top: 0;
+	background-color:white;
+	width: 100%;
+}
+footer {	
+	display : table-row;
+	height: 100px;
+	background-color:#000080;
+	opacity: 0,8;
+	color: #000080;
+	 /* à titre d'exemple */
+}
+h1
+{
+    
+    color: #000080;
+}
+.logo_toutpetit
+{
+    float: middle;
+    vertical-align: middle;
+}
+.menu
+{
+    text-align: center;
+}
+.nouveautés
+{
+	border-left:1px solid #ffffff;
+}
+
+nav ul{
+    padding: 0px;
+	margin: 0px;
+	list-style-type:none;
+	background-color:#000088;
+	opacity: 0,8;/*transparance*/
+}
+
+nav li {
+    display:inline-block;
+	width:150px;
+	height:30px;
+	margin:0px;
+	padding:0px;
+	border-right:1px solid #ffffff;
+	text-align:center;
+	line-height:30px;
+}
+
+nav li:hover {
+	text-decoration: underline;
+	color : orange;
+}
+
+
+nav li a{
+	display:block;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+table{
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	border: medium solid #000000;
+	
+
+}
+
+td {
+
+  border: 1px solid black;
+  padding: 10px;
+}
+thead {
+	background-color: #f5f5f5;
+}
+legend{
+	display:block;
+	width:150px;
+	margin:auto;
+	text-align: center;
+}
+.legend
+{
+	background-color: #000080;
+    color: #fff;
+    padding: 3px 6px;
+}
